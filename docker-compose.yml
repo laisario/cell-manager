@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: "root"
+      POSTGRES_PASSWORD: "123456789"
+      POSTGRES_DB: "cell-manager-db"
+    ports:
+      - "3306:5432"
