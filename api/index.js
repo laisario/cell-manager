@@ -1,8 +1,7 @@
 const express = require("express");
-const productRouter = require('../routes/product')
-const userRouter = require('../routes/user')
-const loginRouter = require('../routes/login')
-const cors = require('cors')
+const productRouter = require('../src/routes/product')
+const userRouter = require('../src/routes/user')
+const loginRouter = require('../src/routes/login')
 const app = express();
 
 app.use((req, res, next) => {
